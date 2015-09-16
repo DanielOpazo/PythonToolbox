@@ -11,6 +11,6 @@ def forEach():
 		print(element)
 
 withIndex()
-#forEach()
+forEach()
 
 
