@@ -11,7 +11,7 @@ msg['To'] = 'daniel.opazo.baer@gmail.com'
 
 #s = smtplib.SMTP('smtp.gmail.com', 465)
 s = smtplib.SMTP('localhost')
-#s.login('daniel.opazo.baer@gmail.com', 'dmob1111')
+#s.login('daniel.opazo.baer@gmail.com', 'insert password')
 s.login('pi', 'raspberry')
 s.sendmail(msg['From'], msg['To'], msg.as_string())
 s.quit()
